@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FreeGeo:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FreeGeo_jar</output-path>
+    <root id="archive" name="FreeGeo.jar">
+      <element id="module-output" name="FreeGeo" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../Clock/dist/run794757551/lib/gson-2.8.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
