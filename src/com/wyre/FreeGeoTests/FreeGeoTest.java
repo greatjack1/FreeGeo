@@ -12,6 +12,7 @@ import static org.junit.Assert.*;
  * I hope to eventually add in dependency injection into the main library to be able to test each
  * part individually, but for now this will have to do
  * Created by yaakov on 9/25/17.
+ * TODO: Add in real unit tests
  */
 public class FreeGeoTest {
 
@@ -21,7 +22,9 @@ public class FreeGeoTest {
      */
     public void TestFreeGeo(){
         try {
-            FreeGeo geo = new FreeGeo("1010 East 4th street");
+            FreeGeo geo = new FreeGeo("1010 east 4th street");
+            System.out.println(geo.getGeoPlaces().get(0).getLat());
+            System.out.println(geo.getGeoPlaces().get(0).getLon());
         } catch(Exception ex){
             System.out.println("Error:" + ex.toString());
         }

@@ -17,7 +17,7 @@ import java.util.Iterator;
  * Created by yaakov on 9/24/17.
  */
 public class FreeGeo {
-    private ArrayList<GeoPlace> GeoPlaces;
+    private ArrayList<GeoPlace> GeoPlaces = new ArrayList<>();
 
     /**
      * This method is used to retreive the ArrayList of Geo Places
@@ -72,7 +72,6 @@ public class FreeGeo {
         }
 
     }
-
 
     public ArrayList<GeoPlace> getGeoPlaces() {
         return GeoPlaces;
